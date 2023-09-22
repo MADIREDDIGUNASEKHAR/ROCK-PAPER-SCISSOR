@@ -150,7 +150,7 @@ const startGame = (userPicked) => {
 
   } 
   else if (
-    (userPicked === "rock" && pcPicked === "scissors") ||
+    (userPicked === "rock" && pcPicked === "scissor") ||
     (userPicked === "paper" && pcPicked === "rock") ||
     (userPicked === "scissors" && pcPicked === "paper")
   ) {
